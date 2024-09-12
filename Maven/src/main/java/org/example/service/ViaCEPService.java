@@ -1,5 +1,6 @@
-package org.example.service;
+package com.api.service;
 
+import com.api.model.Endereco;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;

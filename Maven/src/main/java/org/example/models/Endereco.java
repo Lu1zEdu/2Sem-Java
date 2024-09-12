@@ -1,4 +1,4 @@
-package org.example.models;
+package com.api.model;
 
 public class Endereco {
     private String cep;
@@ -17,6 +17,7 @@ public class Endereco {
         this.estado = estado;
     }
 
+    // Getters e Setters
     public String getCep() {
         return cep;
     }
@@ -59,12 +60,6 @@ public class Endereco {
 
     @Override
     public String toString() {
-        return "Endereco{" +
-                "cep='" + cep + '\'' +
-                ", logradouro='" + logradouro + '\'' +
-                ", bairro='" + bairro + '\'' +
-                ", cidade='" + cidade + '\'' +
-                ", estado='" + estado + '\'' +
-                '}';
+        return logradouro + ", " + bairro + ", " + cidade + " - " + estado + ", CEP: " + cep;
     }
 }
